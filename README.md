@@ -1,20 +1,39 @@
-# Blank Template
+# Welcome Bot
 
-This is a blank template used to build out automations using the Slack CLI.
+This is welcome-bot slack application built from a [blank template using Slack CLI](#clone-the-template).
+The tutorial to create this app is accessible on slack's developer portal:
+
+- [Welcome Bot](https://api.slack.com/tutorials/tracks/create-bot-to-welcome-users)
+
+Slack also has a [deno-welcome-bot template](https://github.com/slack-samples/deno-welcome-bot)
+
+If you register as a [developer](https://api.slack.com/developer-program)
+you get to use sandboxes and learn slack app development. You will need to provide your card details,
+but this is only used for verification and not for charging you while you learn with your sandbox.
 
 **Guide Outline**:
 
-- [Setup](#setup)
-  - [Install the Slack CLI](#install-the-slack-cli)
-  - [Clone the Template](#clone-the-template)
-- [Running Your Project Locally](#running-your-project-locally)
-- [Creating Triggers](#creating-triggers)
-- [Datastores](#datastores)
-- [Testing](#testing)
-- [Deploying Your App](#deploying-your-app)
-- [Viewing Activity Logs](#viewing-activity-logs)
-- [Project Structure](#project-structure)
-- [Resources](#resources)
+- [Welcome Bot](#welcome-bot)
+  - [Setup](#setup)
+    - [Install the Slack CLI](#install-the-slack-cli)
+    - [Clone the Template](#clone-the-template)
+  - [Running Your Project Locally](#running-your-project-locally)
+  - [Creating Triggers](#creating-triggers)
+    - [Link Triggers](#link-triggers)
+    - [Manual Trigger Creation](#manual-trigger-creation)
+  - [Datastores](#datastores)
+  - [Testing](#testing)
+  - [Deploying Your App](#deploying-your-app)
+  - [Viewing Activity Logs](#viewing-activity-logs)
+  - [Project Structure](#project-structure)
+    - [`.slack/`](#slack)
+    - [`datastores/`](#datastores-1)
+    - [`functions/`](#functions)
+    - [`triggers/`](#triggers)
+    - [`workflows/`](#workflows)
+    - [`manifest.ts`](#manifestts)
+    - [`slack.json`](#slackjson)
+  - [Resources](#resources)
 
 ---
 
